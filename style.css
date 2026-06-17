@@ -100,9 +100,10 @@ body {
 
 .nose {
   display: flex;
-  justify-self: center;
   position: absolute;
   top: 53%;
+  left: 50%;
+  transform: translateX(-50%);
   background-color: black;
   width: 30px;
   height: 30px;
