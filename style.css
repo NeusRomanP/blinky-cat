@@ -79,10 +79,11 @@ body {
   width: 180px;
   position: absolute;
   top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
   content: '';
   display: flex;
   justify-content: space-between;
-  justify-self: center;
 }
 
 .eye {
